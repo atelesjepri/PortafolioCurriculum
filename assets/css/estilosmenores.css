@@ -1,0 +1,35 @@
+*{
+	box-sizing: border-box;
+}
+
+.flex-container{
+	display:  flex;
+	flex-direction: column;
+	padding: 10px;
+  border: 2px solid black;
+}
+
+.exterior{
+	display:  flex;
+	flex-direction: row;
+	align-items: flex-end;
+	margin: 10px;
+	padding: 10px;
+	border: 2px solid black;
+}
+
+.interior{
+	margin: 10px;
+	padding: 20px;
+	font-size: 30px;
+	border: 2px solid black;
+}
+
+model-viewer{
+			width:500px;
+			height:500px;
+			padding:10px;
+			position:relative;
+			left: 50%;
+			transform: translateX(-50%);
+		}
